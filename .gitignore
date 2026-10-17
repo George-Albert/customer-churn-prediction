@@ -1,0 +1,17 @@
+# Generated demo inputs and all row-level outputs stay local.
+/input/*
+!/input/README.md
+*.csv
+*.joblib
+/outputs/
+/.venv/
+/.cache/
+/.planning/
+/work/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.executed.ipynb
+.DS_Store
+.env
+.env.*
