@@ -1,0 +1,70 @@
+{
+  "assessment_metrics": [
+    {
+      "accuracy": 0.63,
+      "balanced_accuracy": 0.593939393939394,
+      "brier_score": 0.22751951803757195,
+      "candidate": "forest_unweighted",
+      "customers": 200,
+      "f1": 0.7394366197183099,
+      "fn": 5,
+      "fp": 69,
+      "precision": 0.603448275862069,
+      "recall": 0.9545454545454546,
+      "retained_recall": 0.23333333333333334,
+      "roc_auc": 0.6823232323232324,
+      "scope": "all",
+      "threshold": 0.4,
+      "tn": 21,
+      "tp": 105
+    },
+    {
+      "accuracy": 0.45,
+      "balanced_accuracy": 0.5,
+      "brier_score": 0.25080624999999995,
+      "candidate": "majority_baseline",
+      "customers": 200,
+      "f1": 0.0,
+      "fn": 110,
+      "fp": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "retained_recall": 1.0,
+      "roc_auc": 0.5,
+      "scope": "all",
+      "threshold": 0.5,
+      "tn": 90,
+      "tp": 0
+    }
+  ],
+  "assessment_population": "June 2023 eligible customers",
+  "data_kind": "synthetic",
+  "figures_sha256": {
+    "cohorts.png": "3b6925c332a626925c95943de371b740f4f9765506ba76e8850d89436f5f6297",
+    "evaluation_confusion.png": "434e24b7fd8857f645bfd9671e2848cbeda3d18e0ae81bea0fd12f485633ead2",
+    "evaluation_roc.png": "68185be1bbca46dac31653060afaa829b7f7d3fc9f3c59984a9d6c1b66177bc4",
+    "mrr_quantiles.png": "98b3f0cb521634bd549965fc352cfda89e11f1d99d7576eead5ed62e575fac96",
+    "threshold_search.png": "33e6f6edf14b160843cf811ae1dd08f3c3a253e7e47b405dd6a7221dd945d18d"
+  },
+  "final_fitting_customers": 1080,
+  "interpretation": "Software demonstration only; not observed business performance.",
+  "scoring_coverage": {
+    "cohort_groups": 242,
+    "customers": 241,
+    "fallback_customers": 24,
+    "multiple_cohort_customers": 1,
+    "predicted_churn": 214,
+    "predicted_retained": 27,
+    "usable_cohort_groups": 218,
+    "usable_customers": 217
+  },
+  "seed": 42,
+  "selected_candidate": "forest_unweighted",
+  "source_notebook_sha256": "44c6b7cb2e6638e107589ebb05078c0faea2739bb9d9872b4dd289c518b47f98",
+  "synthetic_input_sha256": {
+    "case_study.ipynb": "4b8932b7f49929973dc892bc6aaa05449a20af226bd48be0e955497679de2ac5",
+    "training.csv": "3e3b8fdf24d03b483ea7eaaf03bba02b76129d478ba45ddbe18f9e3df394f390",
+    "validation.csv": "3de090fa80debb7aeccff02144860d3e17318cb71d2f446a3e736309b43ab7f0"
+  },
+  "threshold": 0.4
+}
